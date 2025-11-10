@@ -6,7 +6,7 @@ name: 签到薅羊毛
 on:
   schedule:
     # 此处是UTC时间，对应北京时间10:25
-    - cron : '25 02 * * *'
+    - cron : '00 01 * * *'
   workflow_dispatch:
 
 permissions:
